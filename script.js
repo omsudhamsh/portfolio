@@ -89,7 +89,7 @@ document.getElementById("desigg").addEventListener("click", function(event) {
 
 document.getElementById("Git").addEventListener("click", function(event) {
     event.preventDefault();
-    window.location.href="https://github.com/omsudhamsh/1st-Project/pull/1/files"
+    window.location.href="https://github.com/omsudhamsh/Project-1"
 });
 
 // document.getElementById("discorrd").addEventListener("click", function(event) {
