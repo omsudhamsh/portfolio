@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVICON -->
+    <link rel="icon" type="image/OM.png" href="OM.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio Design</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo" style="text-decoration: none;">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <button id="mode-toggle" onclick="togglemode()">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+        <nav class="navbar">
+          <a href="#home" class="active" style="text-decoration: none;">Home</a>
+          <a href="#about" style="text-decoration: none;">About</a>
+          <a href="#services" style="text-decoration: none;">Services</a>
+          <a href="#portfolio" style="text-decoration: none;">Portfolio</a>
+          <a href="#contact" style="text-decoration: none;">Contact</a>
+        </nav>
+      </header>
+      
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi,myself</h3>
+            <h3 id="Name">Om Sudhamsh</h3>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>🎓 Pursuing Engineering in CSE (Ai and ML) at CMR College of Engineering and Technology
+
+                Passionate about leveraging technology for innovative solutions and driven by a goal to secure a high-paying job in the IT sector. Also dedicated to honing graphic design skills, aspiring to become a veteran graphic designer. With 4 months of hands-on experience in designing, I'm eager to combine technical expertise with creative flair to make an impact.</p>
+            <div class="social-media">
+                <a href="#" id="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" id="discorrd"><i class="fa-brands fa-discord"></i></a>
+                <a href="#" id="Be"><i class="fa-brands fa-behance"></i></a>
+                <a href="#"id="Personal"><i class="fa-solid fa-link"></i></a>
+            </div>
+            <a href="#" class="btn" id="download">View CV</a>
+        </div>     
+
+        <div class="home-img">
+            <img src="main.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="abt.jpeg" alt="" class="src">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <spam>Me</spam></h2>
+            <h3>Developer</h3>
+            <p>I'm a highly motivated individual with a passion for technology and a good foundation in computer science.  While adept at problem-solving, my true drive lies in leveraging technology to create innovative solutions with real-world impact.  Beyond the technical realm, I possess a growing design skillset and a keen eye for visual appeal.  Combining these strengths, I aim to become a creative force within the tech industry, developing impactful solutions that bridge the gap between technology and design. </p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Front End</h3>
+                <h4>(Not Core)</h4>
+                <p>Projects on GitHub</p>
+                <a href="#" class="btn" id="Git">Read more</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-sharp fa-solid fa-palette"></i>
+                <h3>UI/UX Designing</h3>
+                <p>Work</p>
+                <div>
+                <a href="#" class="btn" id="desigg">View</a>
+            </div>
+        </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-robot"></i>
+                <h3>Machine Learning</h3>
+                <!-- <h5><em>(Projects)</em></h5> -->
+                <p>View Machine Learning(ML) <em>Projects</em></p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- PORTFOLIO -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="im1.jpg" alt="">
+                <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <i class="fa-solid fa-square-arrow-up-right"></i>
+               </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="im2.jpg" alt="">
+                <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <i class="fa-solid fa-square-arrow-up-right"></i>
+               </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="im3.jpg" alt="">
+                <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <i class="fa-solid fa-square-arrow-up-right"></i>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @omsudhamsh | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        function togglemode() {
+            var body = document.body;
+            body.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>
