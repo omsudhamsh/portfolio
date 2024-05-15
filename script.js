@@ -87,16 +87,15 @@ document.getElementById("desigg").addEventListener("click", function(event) {
     window.location.href="https://www.behance.net/omsudhamsh"
 });
 
-document.getElementById("Git").addEventListener("click", function(event) {
+document.getElementById("Bit").addEventListener("click", function(event) {
     event.preventDefault();
-    window.location.href="https://github.com/omsudhamsh/Project-1"
+    window.location.href="https://bitbucket.org/omsudhamsh-projects/project-1/src/main/"
 });
 
 // document.getElementById("discorrd").addEventListener("click", function(event) {
 //     event.preventDefault();
 //     window.location.href="https://discordapp.com/om_sudhamsh"
 // });
-
 // -------------------------------------------------------------------------
 
 function toggleMode() {
